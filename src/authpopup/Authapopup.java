@@ -18,6 +18,7 @@ public class Authapopup
 		driver.get("https://admin:admin@the-internet.herokuapp.com/digest_auth");
 	   String text=driver.findElement(By.cssSelector("P")).getText();
 	   System.out.println(text);
+	   System.out.println("git 2nd commeit2");
 	  
 		}
 }
